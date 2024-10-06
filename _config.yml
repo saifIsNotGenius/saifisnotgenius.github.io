@@ -2,7 +2,7 @@
 title: "Saif's Blog"
 description: "A blog by Saif Mohammed."
 baseurl: ""
-url: "http://yourwebsite.com"
+url: "https://saifisnotgenius.github.io"
 
 # Build settings
 markdown: kramdown
