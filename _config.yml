@@ -1,0 +1,12 @@
+# Site settings
+title: "Saif's Blog"
+description: "A blog by Saif Mohammed."
+baseurl: ""
+url: "http://yourwebsite.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalinks configuration for posts
+permalink: /:categories/:year/:month/:day/:title.html

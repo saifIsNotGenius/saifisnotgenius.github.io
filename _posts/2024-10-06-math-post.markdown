@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Math in Jekyll with KaTeX"
+description: "A post demonstrating KaTeX integration"
+---
+
+In this post, I will show you how to use KaTeX in Jekyll for math rendering.
+
+Inline math example: $E = mc^2$.
+
+Display math example:
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$

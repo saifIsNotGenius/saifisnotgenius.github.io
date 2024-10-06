@@ -1,0 +1,70 @@
+body {
+    font:1em sans-serif;
+            margin: 1em auto;
+            max-width: 40em;
+            padding: 0 .62em 3.24em;
+}
+
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between title and nav */
+    align-items: center; /* Center items vertically */
+    padding: 2em 0;
+}
+
+h1 {
+    margin: 0 0 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for navigation */
+}
+
+nav ul li {
+    margin: 0 1em; /* Margin between navigation items */
+}
+
+
+/* Additional styles for posts, etc. */
+.post-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.post h2 a {
+    color: black;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.post-excerpt {
+    margin: 0.8em 0;
+}
+
+.read-more {
+    display: inline-block;
+    color: gray;
+}
+
+@media print {
+    body {
+        max-width: none;
+    }
+}
