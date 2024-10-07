@@ -7,7 +7,7 @@
     <title>{{ page.title }}</title>
     <style>
         body {
-	    font:1em sans-serif;
+	    font:1.2em/1.62 sans-serif;
             margin: 1em auto;
             max-width: 40em;
             padding: 0 .62em 3.24em;
@@ -35,6 +35,18 @@
                 max-width: none;
             }
         }
+code, pre {
+	font: 0.9em consolas, monospace;
+    white-space: pre-wrap;     /* Allows wrapping inside code blocks */
+    word-wrap: break-word;     /* Breaks long words if needed */
+    overflow-wrap: anywhere;   /* Breaks text anywhere to prevent overflow */
+    max-width: 100%;           /* Ensures the code block doesn't exceed the container width */
+    padding: 0;                /* Removes any extra padding */
+    margin: 0;                 /* Removes any default margins */
+    box-sizing: border-box;    /* Ensures that any additional styling doesn’t affect the box size */
+}
+
+
     </style>
     <!-- KaTeX CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css">
