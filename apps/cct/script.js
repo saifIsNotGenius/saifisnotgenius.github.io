@@ -261,7 +261,7 @@ function canProcessButtonClick() {
 }
 
 // Mode switching
-let isStandardMode = true;
+let isStandardMode = false;
 let selectedISI = parseInt(document.querySelector('.isi-button.active')?.getAttribute('data-isi'));
 let sessionDuration = durationSlider.value;
 durationValue.textContent = sessionDuration;
@@ -1015,6 +1015,11 @@ window.addEventListener('DOMContentLoaded', function () {
                 btn.classList.remove('active');
             }
         });
+
+        let selectedISI = parseInt(document.querySelector('.isi-button.active')?.getAttribute('data-isi'));
+        sessionDuration = durationSlider.value;
+        durationValue.textContent = sessionDuration;
+        console.log("done");
     }
 
     loadUserSettings();
