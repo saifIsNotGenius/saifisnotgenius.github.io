@@ -264,6 +264,7 @@ function canProcessButtonClick() {
 let isStandardMode = true;
 let selectedISI = parseInt(document.querySelector('.isi-button.active')?.getAttribute('data-isi'));
 let sessionDuration = durationSlider.value;
+durationValue.textContent = sessionDuration;
 
 standardMode.addEventListener('click', function () {
     standardMode.classList.add('active');
