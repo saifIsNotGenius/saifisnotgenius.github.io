@@ -10,3 +10,6 @@ theme: minima
 
 # Permalinks configuration for posts
 permalink: /:categories/:year/:month/:day/:title.html
+
+exclude:
+  - misc_apps
